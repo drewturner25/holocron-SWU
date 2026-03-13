@@ -17,9 +17,7 @@ import { usePathname } from 'next/navigation';
 
 const navLinks = [
   { label: 'Home', href: '/' },
-  { label: 'Deck Builder', href: '/deck-builder' },
   { label: 'Decks', href: '/decks' },
-  { label: 'Export', href: '/export' },
   { label: 'Cards', href: '/cards' },
 ];
 
@@ -58,7 +56,7 @@ export default function Navbar() {
               component={Link}
               href="/"
               fw={600}
-              size="lg"
+              size="xl"
               style={{
                 textDecoration: 'none',
                 color: '#131313',
